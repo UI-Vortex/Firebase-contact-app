@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    z-index: -10000;
+    background: rgb(63, 63, 63);
+    display: flex;
+    justify-content: center;
+}
+
+.firebase {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    gap: 10px;
+    padding: 18px 40px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.firebase h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: 
+    #000000;
+}
+
+.firebase-texts {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.firebase-texts .input-go {
+    display: flex;
+    align-items: center;
+}
+
+.input-go input {
+    background: transparent;
+    padding: 10px 40px;
+    border: 2px solid #FFFFFF;
+    position: relative;
+    border-radius: 10px;
+
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #FFFFFF;
+}
+
+.firebase-texts .fireIcon {
+    padding: 15px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.fire {
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(-280px) translateX(10px);
+    background: #FDFDFD;
+    padding: 55px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.fire .name {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    outline-color: #000000;
+}
+
+.fire .name-input {
+    width: 316px;
+    margin-bottom: 20px;
+    height: 40px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.fire .email {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    outline-color: #000000;
+}
+
+.fire .email-input {
+    width: 316px;
+    height: 40px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.fire .button {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #000000;
+    padding: 6px 12px;
+    transform: translateX(160px) translateY(30px);
+    background: #FCCA3F;
+    border-radius: 10px;
+}
+
+.input-go .fa-solid {
+    position: absolute;
+    transform: translateX(15px);
+    color: #FFFFFF;
+}
+
+.input-go input::placeholder {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #FFFFFF;
+}
+
+.contacts {
+    z-index: -1000;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    background: #FFEAAE;
+    padding: 10px 20px;
+    gap: 10px;
+    border-radius: 15px;
+}
+
+.contacts .user {
+    font-size: 35px;
+}
+
+.contact-mail {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-mail .contact-name {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #000000;
+}
+
+.contact-mail .email-contact {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.94px;
+    color: #000000;
+}
+
+.trasher {
+    display: flex;
+    gap: 10px;
+    transform: translateX(20px);
+}
+
+.contacts .pen {
+    font-size: 27px;
+    cursor: pointer;
+}
+
+.contacts .trash {
+    font-size: 27px;
+    cursor: pointer;
+}
